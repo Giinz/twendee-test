@@ -10,6 +10,7 @@ const App = () => {
     <Route path="/" element={<RootLayout/>} errorElement={<ErrorPage/>}>
       <Route index element={<HomePage/>} />
       <Route path=":page" element={<UserList/>} />
+      <Route path="/404" element={<ErrorPage/>} />
     </Route>
   ))
 

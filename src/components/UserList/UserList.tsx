@@ -30,7 +30,7 @@ const UserList = () => {
   useEffect(() => {
     const isParamContainLetter = page && (+page > 10 || /[a-zA-Z]/g.test(page));
     if (isParamContainLetter) {
-      navigate("/", { replace: true });
+      navigate("/404", { replace: true });
     }
   }, [page, navigate]);
 

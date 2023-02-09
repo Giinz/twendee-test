@@ -1,0 +1,23 @@
+.ErrorPage {
+  h1 {
+    color: red;
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  a {
+    width: 30%;
+    height: 30%;
+    font-size: 1.5rem;
+    border-radius: 0.4rem;
+    background-color: var(--greyLight-2);
+    color: #5a6181;
+    margin: 0.5rem auto;
+    padding: 1rem;
+    &:hover {
+      color: var(--primary);
+    }
+  }
+}

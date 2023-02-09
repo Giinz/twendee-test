@@ -1,14 +1,13 @@
 import { Link , useRouteError} from "react-router-dom";
+import "./ErrorPage.scss"
 
 const NotFound = () => {
     let error = useRouteError();
   return (
-    <div>
-      <h1 style={{ color: "red", fontSize: 100 }}>404</h1>
-      <h3>Page Not Found</h3>
-      <p>
+    <div className="ErrorPage">
+      <h1 >404</h1>
+      <h2>Page Not Found</h2>
         <Link to="/">Go Home</Link>
-      </p>
     </div>
   );
 };
