@@ -19,12 +19,12 @@ const Pagination = ({
   const changePage = (page: number) => {
     setCurrentPage(page);
     window.scrollTo({
-      top:0,
-      behavior:"smooth"
+      top: 0,
+      behavior: "smooth",
     });
   };
 
-  for (let i = 1; i < Math.ceil(totalPosts / postsPerPage); i++) {
+  for (let i = 1; i <= Math.ceil(totalPosts / postsPerPage); i++) {
     pages.push(i);
   }
 

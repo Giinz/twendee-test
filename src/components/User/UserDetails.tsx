@@ -1,7 +1,9 @@
 import "./User.scss";
+
 type Props = { thumbnail?: string; userName?: string; fullname?: string };
 
 const UserDetails = ({ thumbnail, userName, fullname }: Props) => {
+  
   return (
     <tr>
       <td>

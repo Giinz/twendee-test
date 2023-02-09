@@ -1,0 +1,19 @@
+.HomePage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    text-decoration: none;
+    color: #5a6181;
+    border-radius: 0.4rem;
+  background-color: #ffffff;
+  &:hover {
+    color: var(--primary);
+  }
+  &.active {
+    color: #ffffff;
+    background: var(--primary);
+    font-weight: 600;
+    border: 1px solid var(--primary);
+  }
+}
